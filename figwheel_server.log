@@ -1,0 +1,583 @@
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.652 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.537 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.542 seconds.[0m
+[36m----  Could not Read  src/tictactoe/core.cljs   line:13 ----[0m
+
+  [1m/home/ismael/Documents/lenguajes/tictactoe/tictactoe/src/tictactoe/core.cljs [line 13, col 29] Unmatched delimiter ).[0m
+
+  [36m11[0m  [36m(defn tictactoe [][0m
+  [36m12[0m  [36m  [:div[0m
+  [33m13[0m  [1m   [:h1 (:text @app-state)])[0m
+  [0m  [0m  [33m   /home/ismael/Documents/lenguajes/tictactoe/tictactoe/src/tictactoe/core.cljs [line 13, col 29] Unmatched delimiter ).[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(reagent/render-component [tictactoe][0m
+  [36m16[0m  [36m                          (. js/document (getElementById "app")))[0m
+
+[36m----  Reader Error : Please see src/tictactoe/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.276 seconds.[0m
+[36m----  Could not Read  src/tictactoe/core.cljs   line:13 ----[0m
+
+  [1m/home/ismael/Documents/lenguajes/tictactoe/tictactoe/src/tictactoe/core.cljs [line 13, col 29] Unmatched delimiter ).[0m
+
+  [36m11[0m  [36m(defn tictactoe [][0m
+  [36m12[0m  [36m  [:div[0m
+  [33m13[0m  [1m   [:h1 (:text @app-state)])[0m
+  [0m  [0m  [33m   /home/ismael/Documents/lenguajes/tictactoe/tictactoe/src/tictactoe/core.cljs [line 13, col 29] Unmatched delimiter ).[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(reagent/render-component [tictactoe][0m
+  [36m16[0m  [36m                          (. js/document (getElementById "app")))[0m
+
+[36m----  Reader Error : Please see src/tictactoe/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 1.221 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[36m----  Compiler Warning on   src/tictactoe/core.cljs   line:8  column:63  ----[0m
+
+  [1mUse of undeclared Var tictactoe.core/new-board[0m
+
+  [36m 4[0m  [36m(enable-console-print!)[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m;; define your app data so that it doesn't get over-written on reload[0m
+  [36m 7[0m  [36m[0m
+  [33m 8[0m  [1m(defonce app-state (atom {:text "Clojure Tic Tac Toe" :board (new-board)}))[0m
+  [0m  [0m  [33m                                                              ^--- Use of undeclared Var tictactoe.core/new-board[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m(defn tictactoe [][0m
+  [36m12[0m  [36m  [:div[0m
+  [36m13[0m  [36m   [:h1 (:text @app-state)])[0m
+
+[36m----  Compiler Warning : Please see src/tictactoe/core.cljs  ----[0m
+[31mFailed to compile build :dev from ["src"] in 0.25 seconds.[0m
+[36m----  Could not Read  src/tictactoe/core.cljs   line:13 ----[0m
+
+  [1m/home/ismael/Documents/lenguajes/tictactoe/tictactoe/src/tictactoe/core.cljs [line 13, col 29] Unmatched delimiter ).[0m
+
+  [36m11[0m  [36m(defn tictactoe [][0m
+  [36m12[0m  [36m  [:div[0m
+  [33m13[0m  [1m   [:h1 (:text @app-state)])[0m
+  [0m  [0m  [33m   /home/ismael/Documents/lenguajes/tictactoe/tictactoe/src/tictactoe/core.cljs [line 13, col 29] Unmatched delimiter ).[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(reagent/render-component [tictactoe][0m
+  [36m16[0m  [36m                          (. js/document (getElementById "app")))[0m
+
+[36m----  Reader Error : Please see src/tictactoe/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[36m----  Compiler Warning on   src/tictactoe/core.cljs   line:8  column:63  ----[0m
+
+  [1mUse of undeclared Var tictactoe.core/new-board[0m
+
+  [36m 4[0m  [36m(enable-console-print!)[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m;; define your app data so that it doesn't get over-written on reload[0m
+  [36m 7[0m  [36m[0m
+  [33m 8[0m  [1m(defonce app-state (atom {:text "Clojure Tic Tac Toe" :board (new-board)}))[0m
+  [0m  [0m  [33m                                                              ^--- Use of undeclared Var tictactoe.core/new-board[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m(defn tictactoe [][0m
+  [36m12[0m  [36m  [0m
+  [36m13[0m  [36m   [:h1 (:text @app-state)])[0m
+
+[36m----  Compiler Warning : Please see src/tictactoe/core.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.584 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[36m----  Compiler Warning on   src/tictactoe/core.cljs   line:9  column:35  ----[0m
+
+  [1mUse of undeclared Var tictactoe.core/new-board[0m
+
+  [36m 6[0m  [36m;; define your app data so that it doesn't get over-written on reload[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(defonce app-state (atom {:text "Clojure Tic Tac Toe"[0m
+  [33m 9[0m  [1m                          :board (new-board)}))[0m
+  [0m  [0m  [33m                                  ^--- Use of undeclared Var tictactoe.core/new-board[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(defn tictactoe [][0m
+  [36m13[0m  [36m  [:center [0m
+  [36m14[0m  [36m   [:h1 (:text @app-state)][0m
+
+[36m----  Compiler Warning : Please see src/tictactoe/core.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.595 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[36m----  Compiler Warning on   src/tictactoe/core.cljs   line:12  column:17  ----[0m
+
+  [1mUse of undeclared Var tictactoe.core/app-state[0m
+
+  [36m10[0m  [36m(defn tictactoe [][0m
+  [36m11[0m  [36m  [:center [0m
+  [33m12[0m  [1m   [:h1 (:text @app-state)][0m
+  [0m  [0m  [33m                ^--- Use of undeclared Var tictactoe.core/app-state[0m
+  [36m13[0m  [36m   [:svg[0m
+  [36m14[0m  [36m    {[0m
+  [36m15[0m  [36m      :view-box "0 0 30 30"[0m
+  [36m16[0m  [36m      :width 500[0m
+  [36m17[0m  [36m      :height 500[0m
+
+[36m----  Compiler Warning : Please see src/tictactoe/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/tictactoe/core.cljs   line:28  column:10  ----[0m
+
+  [1mUse of undeclared Var tictactoe.core/app-state[0m
+
+  [36m24[0m  [36m(defn on-js-reload [][0m
+  [36m25[0m  [36m  ;; optionally touch your app-state to force rerendering depending on[0m
+  [36m26[0m  [36m  ;; your application[0m
+  [36m27[0m  [36m  ;; (swap! app-state update-in [:__figwheel_counter] inc)[0m
+  [33m28[0m  [1m  (swap! app-state assoc-in [:text] "Hi")[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var tictactoe.core/app-state[0m
+  [36m29[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/tictactoe/core.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.569 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[36m----  Compiler Warning on   src/tictactoe/core.cljs   line:9  column:35  ----[0m
+
+  [1mUse of undeclared Var tictactoe.core/new-board[0m
+
+  [36m 6[0m  [36m;; define your app data so that it doesn't get over-written on reload[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(defonce app-state (atom {:text "Clojure Tic Tac Toe"[0m
+  [33m 9[0m  [1m                          :board (new-board)}))[0m
+  [0m  [0m  [33m                                  ^--- Use of undeclared Var tictactoe.core/new-board[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(defn tictactoe [][0m
+  [36m13[0m  [36m  [:center [0m
+  [36m14[0m  [36m   [:h1 (:text @app-state)][0m
+
+[36m----  Compiler Warning : Please see src/tictactoe/core.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.524 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.482 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.518 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.237 seconds.[0m
+[36m----  Could not Read  src/tictactoe/core.cljs   line:25 ----[0m
+
+  [1m/home/ismael/Documents/lenguajes/tictactoe/tictactoe/src/tictactoe/core.cljs [line 25, col 49] Unmatched delimiter ].[0m
+
+  [36m23[0m  [36m}[0m
+  [36m24[0m  [36m(for [i (range (count (:board @app-state))[0m
+  [33m25[0m  [1m      j (range (count (:board @app-state)))][0m
+  [0m  [0m  [33m      /home/ismael/Documents/lenguajes/tictactoe/tictactoe/src/tictactoe/core.cljs [line 25, col 49] Unmatched delimiter ].[0m
+  [36m26[0m  [36m  [:rect {width 0.9[0m
+  [36m27[0m  [36m          :height 0.9[0m
+  [36m28[0m  [36m          :fill "blue"[0m
+
+[36m----  Reader Error : Please see src/tictactoe/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.257 seconds.[0m
+[36m----  Could not Read  src/tictactoe/core.cljs   line:31 ----[0m
+
+  [1m/home/ismael/Documents/lenguajes/tictactoe/tictactoe/src/tictactoe/core.cljs [line 31, col 14] Unmatched delimiter ).[0m
+
+  [36m29[0m  [36m              :x i[0m
+  [36m30[0m  [36m              :y j}][0m
+  [33m31[0m  [1m          )])[0m
+  [0m  [0m  [33m          /home/ismael/Documents/lenguajes/tictactoe/tictactoe/src/tictactoe/core.cljs [line 31, col 14] Unmatched delimiter ).[0m
+  [36m32[0m  [36m    ])[0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m(reagent/render-component [tictactoe][0m
+
+[36m----  Reader Error : Please see src/tictactoe/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.246 seconds.[0m
+[36m----  Could not Read  src/tictactoe/core.cljs   line:32 ----[0m
+
+  [1m/home/ismael/Documents/lenguajes/tictactoe/tictactoe/src/tictactoe/core.cljs [line 32, col 6] Unmatched delimiter ].[0m
+
+  [36m30[0m  [36m              :y j}][0m
+  [36m31[0m  [36m          )]][0m
+  [33m32[0m  [1m    ])[0m
+  [0m  [0m  [33m    /home/ismael/Documents/lenguajes/tictactoe/tictactoe/src/tictactoe/core.cljs [line 32, col 6] Unmatched delimiter ].[0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m(reagent/render-component [tictactoe][0m
+  [36m35[0m  [36m                          (. js/document (getElementById "app")))[0m
+
+[36m----  Reader Error : Please see src/tictactoe/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[36m----  Compiler Warning on   src/tictactoe/core.cljs   line:26  column:15  ----[0m
+
+  [1mUse of undeclared Var tictactoe.core/width[0m
+
+  [36m22[0m  [36m  :height 500[0m
+  [36m23[0m  [36m}[0m
+  [36m24[0m  [36m(for [i (range (count (:board @app-state)))[0m
+  [36m25[0m  [36m      j (range (count (:board @app-state)))][0m
+  [33m26[0m  [1m  [:rect {width 0.9[0m
+  [0m  [0m  [33m          ^--- Use of undeclared Var tictactoe.core/width[0m
+  [36m27[0m  [36m          :height 0.9[0m
+  [36m28[0m  [36m          :fill "blue"[0m
+  [36m29[0m  [36m          :x i[0m
+  [36m30[0m  [36m          :y j}][0m
+  [36m31[0m  [36m      )]][0m
+
+[36m----  Compiler Warning : Please see src/tictactoe/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/tictactoe/core.cljs   line:26  column:15  ----[0m
+
+  [1mUse of undeclared Var tictactoe.core/width[0m
+
+  [36m22[0m  [36m  :height 500[0m
+  [36m23[0m  [36m}[0m
+  [36m24[0m  [36m(for [i (range (count (:board @app-state)))[0m
+  [36m25[0m  [36m      j (range (count (:board @app-state)))][0m
+  [33m26[0m  [1m  [:rect {width 0.9[0m
+  [0m  [0m  [33m          ^--- Use of undeclared Var tictactoe.core/width[0m
+  [36m27[0m  [36m          :height 0.9[0m
+  [36m28[0m  [36m          :fill "blue"[0m
+  [36m29[0m  [36m          :x i[0m
+  [36m30[0m  [36m          :y j}][0m
+  [36m31[0m  [36m      )]][0m
+
+[36m----  Compiler Warning : Please see src/tictactoe/core.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.595 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[36m----  Compiler Warning on   src/tictactoe/core.cljs   line:26  column:15  ----[0m
+
+  [1mUse of undeclared Var tictactoe.core/width[0m
+
+  [36m22[0m  [36m  :height 500[0m
+  [36m23[0m  [36m}[0m
+  [36m24[0m  [36m(for [i (range (count (:board @app-state)))[0m
+  [36m25[0m  [36m      j (range (count (:board @app-state)))][0m
+  [33m26[0m  [1m  [:rect {width 0.9[0m
+  [0m  [0m  [33m          ^--- Use of undeclared Var tictactoe.core/width[0m
+  [36m27[0m  [36m          :height 0.9[0m
+  [36m28[0m  [36m          :fill "blue"[0m
+  [36m29[0m  [36m          :x i[0m
+  [36m30[0m  [36m          :y j}][0m
+  [36m31[0m  [36m      )]][0m
+
+[36m----  Compiler Warning : Please see src/tictactoe/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/tictactoe/core.cljs   line:26  column:15  ----[0m
+
+  [1mUse of undeclared Var tictactoe.core/width[0m
+
+  [36m22[0m  [36m  :height 500[0m
+  [36m23[0m  [36m}[0m
+  [36m24[0m  [36m(for [i (range (count (:board @app-state)))[0m
+  [36m25[0m  [36m      j (range (count (:board @app-state)))][0m
+  [33m26[0m  [1m  [:rect {width 0.9[0m
+  [0m  [0m  [33m          ^--- Use of undeclared Var tictactoe.core/width[0m
+  [36m27[0m  [36m          :height 0.9[0m
+  [36m28[0m  [36m          :fill "blue"[0m
+  [36m29[0m  [36m          :x i[0m
+  [36m30[0m  [36m          :y j}][0m
+  [36m31[0m  [36m      )]][0m
+
+[36m----  Compiler Warning : Please see src/tictactoe/core.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.538 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.519 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.541 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.516 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.496 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.516 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.615 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.495 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.504 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.601 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.517 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.523 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.847 seconds.[0m
+[36m----  Could not Analyze  src/tictactoe/core.cljs   line:19  column:15  ----[0m
+
+  [1mWrong number of args (0) passed to: core/zero?[0m
+
+  [36m17[0m  [36m{ :width 0.9[0m
+  [36m18[0m  [36m  :height 0.9[0m
+  [33m19[0m  [1m  :fill (if (zero? )[0m
+  [0m  [0m  [33m            ^--- Wrong number of args (0) passed to: core/zero?[0m
+  [36m20[0m  [36m    "blue"[0m
+  [36m21[0m  [36m    "red")[0m
+  [36m22[0m  [36m  :x i[0m
+
+[36m----  Analysis Error : Please see src/tictactoe/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.241 seconds.[0m
+[36m----  Could not Analyze  src/tictactoe/core.cljs   line:19  column:15  ----[0m
+
+  [1mWrong number of args (0) passed to: core/zero?[0m
+
+  [36m17[0m  [36m{ :width 0.9[0m
+  [36m18[0m  [36m  :height 0.9[0m
+  [33m19[0m  [1m  :fill (if (zero? )[0m
+  [0m  [0m  [33m            ^--- Wrong number of args (0) passed to: core/zero?[0m
+  [36m20[0m  [36m    "blue"[0m
+  [36m21[0m  [36m    "red")[0m
+  [36m22[0m  [36m  :x i[0m
+
+[36m----  Analysis Error : Please see src/tictactoe/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.234 seconds.[0m
+[36m----  Could not Read  src/tictactoe/core.cljs   line:21 ----[0m
+
+  [1m/home/ismael/Documents/lenguajes/tictactoe/tictactoe/src/tictactoe/core.cljs [line 21, col 13] Unmatched delimiter ).[0m
+
+  [36m19[0m  [36m:fill (if zero? )[0m
+  [36m20[0m  [36m  "blue"[0m
+  [33m21[0m  [1m  "red")[0m
+  [0m  [0m  [33m  /home/ismael/Documents/lenguajes/tictactoe/tictactoe/src/tictactoe/core.cljs [line 21, col 13] Unmatched delimiter ).[0m
+  [36m22[0m  [36m:x i[0m
+  [36m23[0m  [36m:y j[0m
+  [36m24[0m  [36m:on-click (fn rect-click [e] (prn "you clicked me!" i j)[0m
+
+[36m----  Reader Error : Please see src/tictactoe/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.244 seconds.[0m
+[36m----  Could not Analyze  src/tictactoe/core.cljs   line:19  column:15  ----[0m
+
+  [1mWrong number of args (0) passed to: core/zero?[0m
+
+  [36m17[0m  [36m{ :width 0.9[0m
+  [36m18[0m  [36m  :height 0.9[0m
+  [33m19[0m  [1m  :fill (if (zero? )[0m
+  [0m  [0m  [33m            ^--- Wrong number of args (0) passed to: core/zero?[0m
+  [36m20[0m  [36m    "blue"[0m
+  [36m21[0m  [36m    "red")[0m
+  [36m22[0m  [36m  :x i[0m
+
+[36m----  Analysis Error : Please see src/tictactoe/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.275 seconds.[0m
+[36m----  Could not Analyze  src/tictactoe/core.cljs   line:19  column:15  ----[0m
+
+  [1mWrong number of args (0) passed to: core/zero?[0m
+
+  [36m17[0m  [36m{ :width 0.9[0m
+  [36m18[0m  [36m  :height 0.9[0m
+  [33m19[0m  [1m  :fill (if (zero? )[0m
+  [0m  [0m  [33m            ^--- Wrong number of args (0) passed to: core/zero?[0m
+  [36m20[0m  [36m    "blue"[0m
+  [36m21[0m  [36m    "red")[0m
+  [36m22[0m  [36m  :x i[0m
+
+[36m----  Analysis Error : Please see src/tictactoe/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.332 seconds.[0m
+[36m----  Could not Analyze  src/tictactoe/core.cljs   line:19  column:15  ----[0m
+
+  [1mWrong number of args (0) passed to: core/zero?[0m
+
+  [36m17[0m  [36m{ :width 0.9[0m
+  [36m18[0m  [36m  :height 0.9[0m
+  [33m19[0m  [1m  :fill (if (zero? )[0m
+  [0m  [0m  [33m            ^--- Wrong number of args (0) passed to: core/zero?[0m
+  [36m20[0m  [36m    "blue"[0m
+  [36m21[0m  [36m    "red")[0m
+  [36m22[0m  [36m  :x i[0m
+
+[36m----  Analysis Error : Please see src/tictactoe/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.253 seconds.[0m
+[36m----  Could not Analyze  src/tictactoe/core.cljs   line:19  column:15  ----[0m
+
+  [1mWrong number of args (0) passed to: core/zero?[0m
+
+  [36m17[0m  [36m{ :width 0.9[0m
+  [36m18[0m  [36m  :height 0.9[0m
+  [33m19[0m  [1m  :fill (if (zero? )[0m
+  [0m  [0m  [33m            ^--- Wrong number of args (0) passed to: core/zero?[0m
+  [36m20[0m  [36m    "blue"[0m
+  [36m21[0m  [36m    "red")[0m
+  [36m22[0m  [36m  :x i[0m
+
+[36m----  Analysis Error : Please see src/tictactoe/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.247 seconds.[0m
+[36m----  Could not Read  src/tictactoe/core.cljs   line:55 ----[0m
+
+  [1m/home/ismael/Documents/lenguajes/tictactoe/tictactoe/src/tictactoe/core.cljs [line 55, col 7] Unmatched delimiter ).[0m
+
+  [36m53[0m  [36m      1 [circle i j][0m
+  [36m54[0m  [36m      2 [cross i j])[0m
+  [33m55[0m  [1m    ))])[0m
+  [0m  [0m  [33m    /home/ismael/Documents/lenguajes/tictactoe/tictactoe/src/tictactoe/core.cljs [line 55, col 7] Unmatched delimiter ).[0m
+  [36m56[0m  [36m[0m
+  [36m57[0m  [36m(reagent/render-component [tictactoe][0m
+  [36m58[0m  [36m                          (. js/document (getElementById "app")))[0m
+
+[36m----  Reader Error : Please see src/tictactoe/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 1.231 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.512 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 1.081 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.69 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[36m----  Compiler Warning on   src/tictactoe/core.cljs   line:70  column:30  ----[0m
+
+  [1mUse of undeclared Var tictactoe.core/temp-atom[0m
+
+  [36m66[0m  [36m  (assoc state :game-status (game-status (:board state))))[0m
+  [36m67[0m  [36m[0m
+  [36m68[0m  [36m(defn check-game-status [state][0m
+  [36m69[0m  [36m  (-> state[0m
+  [33m70[0m  [1m      (js/setTimeout #(swap! temp-atom inc) 3000)[0m
+  [0m  [0m  [33m                             ^--- Use of undeclared Var tictactoe.core/temp-atom[0m
+  [36m71[0m  [36m      (update-in [:board] computer-move)[0m
+  [36m72[0m  [36m      (update-status)))[0m
+  [36m73[0m  [36m[0m
+  [36m74[0m  [36m(defn blank [i j][0m
+  [36m75[0m  [36m  [:rect[0m
+
+[36m----  Compiler Warning : Please see src/tictactoe/core.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.748 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.709 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.791 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.652 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.658 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.672 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.669 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.757 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.698 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.736 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.796 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.667 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.73 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.659 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.655 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.555 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.595 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.653 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.709 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.665 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.707 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.657 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.641 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.645 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.708 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.823 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.75 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.647 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.53 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.632 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 1.811 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 1.132 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.737 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 1.239 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.663 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.696 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
+Compiling build :dev to "resources/public/js/compiled/tictactoe.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/tictactoe.js" in 0.855 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/tictactoe/core.js
